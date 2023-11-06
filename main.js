@@ -1,6 +1,6 @@
 function getTime() {
     let t = 1000; 
-    setTimeout('showTime()', t)
+    setInterval(showTime, t)
 }
 
 function showTime() {
